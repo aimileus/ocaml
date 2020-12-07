@@ -1,3 +1,16 @@
+=======
+Working version
+---------------
+
+### Code generation and optimization
+
+ - #9752, #10026: Revised handling of calling conventions for
+   external C functions.
+   Provide a more precise description of the types of unboxed arguments,
+   so that the ARM64 iOS/macOS calling conventions can be honored.
+   Backported from OCaml 4.12.0
+   (Xavier Leroy, review by Mark Shinwell and Github user @EduardoRFS)
+
 OCaml 4.10.0 (21 February 2020)
 -------------------------------
 
